@@ -1,0 +1,33 @@
+* {
+  background-color: bisque;
+}
+
+.counter {
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+  font-size: 5rem;
+}
+
+/* STYLE ALL BTN */
+.decre,
+.incre,
+.rese
+{
+  padding: 1.3rem 2rem;
+  margin: 1rem;
+  background-color: aliceblue;
+  
+  border-radius: 1rem;
+}
+
+.btn-all {
+  display: flex;
+  justify-content: center;
+} 
