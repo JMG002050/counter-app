@@ -3,6 +3,7 @@
 }
 
 .counter {
+  font-size: 2.5rem;
   padding: 2rem;
 
   display: flex;
@@ -11,23 +12,54 @@
   align-items: center;
 }
 
-.value {
+.number {
   font-size: 5rem;
 }
 
 /* STYLE ALL BTN */
-.decre,
+/* .decre,
 .incre,
 .rese
 {
+  font-size: 2rem;
   padding: 1.3rem 2rem;
   margin: 1rem;
   background-color: aliceblue;
   
   border-radius: 1rem;
+} */
+
+.decre,
+.incre,
+.rese {
+  font-size: 1.5rem;
+  padding: 1.3rem 2rem;
+  margin: 1rem;
+  background: linear-gradient(135deg, #f7fbff, #e4edf7);
+  color: #141e27;
+  border: 1px solid #cdd6e1;
+  border-radius: 1rem;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12), 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 160ms ease;
+}
+
+.decre:hover,
+.incre:hover,
+.rese:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.14), 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.decre:active,
+.incre:active,
+.rese:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.465);
+  background: #dfe8f2;
 }
 
 .btn-all {
   display: flex;
   justify-content: center;
 } 
+
