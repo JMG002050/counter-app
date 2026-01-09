@@ -35,11 +35,14 @@ https://jmg002050.github.io/counter-app/
 - Git & GitHub workflow (commits, pushing, GitHub Pages)
 
 ---
-👤 Author
+## 👤 Author
 
 Jorge Martinez
 Aspiring Full-Stack Engineer
 Practicing JavaScript fundamentals through hands-on projects 💻🔥
 
+---
 ## 📂 Project Structure
-
+├── index.html
+├── style.css
+└── script.js
